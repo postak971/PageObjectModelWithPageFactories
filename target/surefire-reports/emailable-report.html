@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">PageObject with PF </th></tr>
+<tr><td><a href="#t0">Flight Search Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,499</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Book Hotel Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">20,738</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Sign In Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">20,152</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num attn">1</th><th class="num">66,389</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PageObject with PF </th></tr></tbody><tbody id="t0"><tr><th colspan="4">Flight Search Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.cheaptickets.testcases.FlightSearchTest</td><td><a href="#m0">flightSearchTest</a></td><td rowspan="1">1612544706211</td><td rowspan="1">20139</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Book Hotel Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.cheaptickets.testcases.BookHotelTest</td><td><a href="#m1">bookHotelTest</a></td><td rowspan="1">1612544732229</td><td rowspan="1">17328</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Sign In Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.cheaptickets.testcases.SignInTest</td><td><a href="#m2">signinTest</a></td><td rowspan="1">1612544773159</td><td rowspan="1">0</td></tr><tr><th colspan="4">Sign In Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.cheaptickets.testcases.SignInTest</td><td><a href="#m3">signinTest</a></td><td rowspan="1">1612544753012</td><td rowspan="1">16442</td></tr></tbody>
+</table>
+<h2>Flight Search Test</h2><h3 id="m0">com.cheaptickets.testcases.FlightSearchTest#flightSearchTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{returnDate=9/5/20, numAdults=2.0, departDate=9/1/20, Runmode=Y, numChildren=1.0, toCity=Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.), fromCity=New York, NY (JFK-John F. Kennedy Intl.)}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages">Capturing screenshot<br/><a target =" _blank" href = Fri_Feb_05_11_05_27_CST_2021.png>Screenshot</a><br/><br /><br/><a target =" _blank" href = Fri_Feb_05_11_05_27_CST_2021.png><img src =Fri_Feb_05_11_05_27_CST_2021.png height ="100" width = "150"></img></a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: Element &lt;select id=&quot;flight-age-select-1-hp-flight&quot; class=&quot;gcw-storeable gcw-toggles-field-by-value gcw-child-age-select&quot; type=&quot;select&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-L49GJNQ&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 25672, moz:profile: C:\Users\posta\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5cc04af8-0851-4171-8727-f83678c6f1a7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.cheaptickets.base.Page.type(Page.java:83)
+	at com.cheaptickets.pages.actions.HomePage.bookFlights(HomePage.java:47)
+	at com.cheaptickets.testcases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:24)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Book Hotel Test</h2><h3 id="m1">com.cheaptickets.testcases.BookHotelTest#bookHotelTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{adults=3.0, children=2.0, checkout=9/3/20, checkin=9/1/20, Runmode=Y, rooms=2.0, city=Downtown Minneapolis}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sign In Test</h2><h3 id="m2">com.cheaptickets.testcases.SignInTest#signinTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=jptjpt789, Runmode=N, username=Blake@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipped the test as the runmode is set to No
+	at com.cheaptickets.testcases.SignInTest.signinTest(SignInTest.java:19)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.cheaptickets.testcases.SignInTest#signinTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=jptjpt456, Runmode=Y, username=Jake@gmail.com}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+com\cheaptickets\rough\SigninTestWithMainMethod.class
+com\cheaptickets\testcases\BookHotelTest.class
+com\cheaptickets\testcases\FlightSearchTest.class
+com\cheaptickets\testcases\SignInTest.class

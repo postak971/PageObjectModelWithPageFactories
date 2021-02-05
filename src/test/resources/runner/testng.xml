@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PageObject with PF ">
+<listeners>
+<listener class-name ="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name ="com.cheaptickets.errorcollectors.TestListenerAdapter"/>
+<listener class-name ="com.cheaptickets.listeners.Listeners"/>
+</listeners>
+	<test thread-count="5" name="Flight Search Test">
+		<classes>
+			<class name="com.cheaptickets.testcases.FlightSearchTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Book Hotel Test">
+		<classes>
+			<class name="com.cheaptickets.testcases.BookHotelTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Sign In Test">
+		<classes>
+			<class name="com.cheaptickets.testcases.SignInTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->

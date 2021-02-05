@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PageObject with PF ]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.cheaptickets.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="com.cheaptickets.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Flight Search Test(failed)">
+    <classes>
+      <class name="com.cheaptickets.testcases.FlightSearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="flightSearchTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.cheaptickets.testcases.FlightSearchTest -->
+    </classes>
+  </test> <!-- Flight Search Test(failed) -->
+  <test thread-count="5" verbose="0" name="Sign In Test(failed)">
+    <classes>
+      <class name="com.cheaptickets.testcases.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="signinTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.cheaptickets.testcases.SignInTest -->
+    </classes>
+  </test> <!-- Sign In Test(failed) -->
+</suite> <!-- Failed suite [PageObject with PF ] -->

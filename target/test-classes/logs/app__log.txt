@@ -1,0 +1,29 @@
+INFO    2021-02-05 11:05:06,234 [main] com.cheaptickets.base.Page  - Logger loaded
+INFO    2021-02-05 11:05:11,061 [main] com.cheaptickets.base.Page  - Firefox launched!!!
+INFO    2021-02-05 11:05:24,521 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: #flight-origin-hp-flight] the value as New York, NY (JFK-John F. Kennedy Intl.)
+INFO    2021-02-05 11:05:25,320 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: #flight-destination-hp-flight] the value as Minneapolis, MN (MSP-Minneapolis - St. Paul Intl.)
+INFO    2021-02-05 11:05:25,542 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: #flight-departing-hp-flight] the value as 9/1/20
+INFO    2021-02-05 11:05:25,904 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: #flight-returning-hp-flight] the value as 9/5/20
+INFO    2021-02-05 11:05:26,106 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: #flight-adults-hp-flight] the value as 2.0
+INFO    2021-02-05 11:05:26,288 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (5cc04af8-0851-4171-8727-f83678c6f1a7)] -> css selector: 	#flight-children-hp-flight] the value as 1.0
+INFO    2021-02-05 11:05:31,650 [main] com.cheaptickets.base.Page  - Browser quit!!!
+INFO    2021-02-05 11:05:36,710 [main] com.cheaptickets.base.Page  - Firefox launched!!!
+INFO    2021-02-05 11:05:47,420 [main] com.cheaptickets.base.Page  - Clicked on the element: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #tab-hotel-tab-hp]
+INFO    2021-02-05 11:05:47,765 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-destination-hp-hotel] the value as Downtown Minneapolis
+INFO    2021-02-05 11:05:47,965 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-checkin-hp-hotel] the value as 9/1/20
+INFO    2021-02-05 11:05:48,296 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-checkout-hp-hotel] the value as 9/3/20
+INFO    2021-02-05 11:05:48,478 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-rooms-hp-hotel] the value as 2.0
+INFO    2021-02-05 11:05:48,720 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-1-adults-hp-hotel] the value as 3.0
+INFO    2021-02-05 11:05:48,860 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-1-children-hp-hotel] the value as 2.0
+INFO    2021-02-05 11:05:49,000 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-1-age-select-1-hp-hotel] the value as 7
+INFO    2021-02-05 11:05:49,112 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #hotel-1-age-select-2-hp-hotel] the value as 5
+INFO    2021-02-05 11:05:49,540 [main] com.cheaptickets.base.Page  - Clicked on the element: [[FirefoxDriver: firefox on WINDOWS (f5e9490c-fcd5-4844-a053-05b5d4649ff6)] -> css selector: #gcw-hotel-form-hp-hotel > div:nth-child(11) > label:nth-child(1) > button]
+INFO    2021-02-05 11:05:52,963 [main] com.cheaptickets.base.Page  - Browser quit!!!
+INFO    2021-02-05 11:05:57,367 [main] com.cheaptickets.base.Page  - Firefox launched!!!
+INFO    2021-02-05 11:06:05,784 [main] com.cheaptickets.base.Page  - Clicked on the element: [[FirefoxDriver: firefox on WINDOWS (cc30930a-e1df-4855-9760-44d8254a1187)] -> css selector: #header-account-menu]
+INFO    2021-02-05 11:06:06,251 [main] com.cheaptickets.base.Page  - Clicked on the element: [[FirefoxDriver: firefox on WINDOWS (cc30930a-e1df-4855-9760-44d8254a1187)] -> css selector: #account-signin]
+INFO    2021-02-05 11:06:06,520 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (cc30930a-e1df-4855-9760-44d8254a1187)] -> css selector: #gss-signin-email] the value as Jake@gmail.com
+INFO    2021-02-05 11:06:06,837 [main] com.cheaptickets.base.Page  - Typed in: [[FirefoxDriver: firefox on WINDOWS (cc30930a-e1df-4855-9760-44d8254a1187)] -> css selector: #gss-signin-password] the value as jptjpt456
+INFO    2021-02-05 11:06:09,425 [main] com.cheaptickets.base.Page  - Clicked on the element: [[FirefoxDriver: firefox on WINDOWS (cc30930a-e1df-4855-9760-44d8254a1187)] -> css selector: #gss-signin-submit]
+INFO    2021-02-05 11:06:13,159 [main] com.cheaptickets.base.Page  - Browser quit!!!
+INFO    2021-02-05 11:06:13,160 [main] com.cheaptickets.base.Page  - Browser quit!!!
